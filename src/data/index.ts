@@ -61,6 +61,19 @@ export const mainEvents: Event[] = [
     ]
   },
   {
+    title: "Zucchero - Tour 2024",
+    events: [
+      {
+        ciudad: "Guadalajara",
+        fecha: "20 sep 2024",
+        lugar: "PALCCO (Palacio De La Cultura Y Los Congresos)",
+        urlboton: "https://boletos.funticket.mx/boletos11/public/janto/main.php?Nivel=Evento&idEvento=ZUCGDL",
+        urlfoto: "https://imgcdn.terio.xyz/images/2024/05/04/zucchero-prox.md.jpeg",
+        links: []
+      }
+    ]
+  },
+  {
     title: "Slipknot - MÉXICO 2024",
     events: [
       {
