@@ -1,0 +1,28 @@
+---
+
+import { footer } from '../data/index.js';
+import { privacidad } from '../data/privacidad.js';
+import { text2html } from '../utils/text2html.js';
+import Footer from '../components/Footer.astro';
+import Layout from '../layouts/Layout.astro';
+
+const htmlText = text2html(privacidad.texto);
+---
+
+<Layout title='Privacidad'>
+  <section class="w-full py-[10vh]">
+    <div class="w-full contenedor flex flex-col items-center">
+      <div class="w-full mb-10">
+        <h1 class="text-white mb-5 text-4xl">
+          {privacidad.titulo}
+        </h1>
+        <h3 class="text-white text-2xl">{privacidad.fecha}</h3>
+      </div>
+      
+      <div class="lg:w-[60%] md:w-[80%] text-white" set:html={htmlText}></div>
+    </div>
+  </section>
+  
+  <!-- FOOTER -->
+  <Footer {...footer} />
+</Layout>

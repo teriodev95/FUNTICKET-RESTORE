@@ -1,0 +1,77 @@
+---
+import { telFix } from '../utils/telFix.js';
+
+const { whatsapp, telefono, email, urlInstagram, urlTwitter, urlFacebook } = Astro.props;
+
+const cleanPhoneWhatsapp = telFix(whatsapp);
+const whatsappUrl = 'https://api.whatsapp.com/send/?phone=' + cleanPhoneWhatsapp;
+
+const cleanPhone = telFix(telefono);
+const phoneUrl = 'tel:' + cleanPhone;
+---
+
+<footer class="w-full bg-black2 py-[10vh]">
+  <div class="contenedor">
+    <div class="flex md:justify-between md:flex-row w-full flex-col">
+
+      <div class="lg:flex lg:w-1/4 w-full flex-col mb-10">
+        <div class="flex flex-col">
+          <span class="p-small text-rosa-extra-light mb-3">Contacto</span>
+          <ul>
+            {cleanPhoneWhatsapp && (
+              <li class="p-small text-morado-extra-light py-1">
+                <a href={whatsappUrl} rel="noopener noreferrer" target="_blank">{'Wa: ' + cleanPhoneWhatsapp}</a>
+              </li>
+            )}
+            {cleanPhone && (
+              <li class="p-small text-morado-extra-light py-1">
+                <a href={phoneUrl}>{'Tel: ' + cleanPhone}</a>
+              </li>
+            )}
+            {email && (
+              <li class="p-small text-morado-extra-light py-1">
+                <a href={'mailto:' + email}>{email}</a>
+              </li>
+            )}
+          </ul>
+        </div>
+      </div>
+
+      <div class="lg:flex lg:w-1/4 w-full flex-col mb-10">
+        <span class="p-small text-rosa-extra-light mb-3">Síguenos</span>
+        <div class="flex">
+          {urlInstagram && (
+            <a class="py-2 px-4 first:pl-0" href={urlInstagram} target="_blank" rel="noopener noreferrer">
+              <img src="/instagram.svg" alt="instagram funticket" />
+            </a>
+          )}
+          {urlFacebook && (
+            <a class="py-2 px-4 first:pl-0" href={urlFacebook} target="_blank" rel="noopener noreferrer">
+              <img src="/facebook.svg" alt="facebook funticket" />
+            </a>
+          )}
+          {urlTwitter && (
+            <a class="py-2 px-4 first:pl-0" href={urlTwitter} target="_blank" rel="noopener noreferrer">
+              <img src="/twitter.svg" alt="twitter funticket" />
+            </a>
+          )}
+        </div>
+      </div>
+
+      <div class="lg:flex lg:w-1/4 w-full flex-col mb-10">
+        <span class="p-small text-rosa-extra-light mb-3">Navegación</span>
+        <ul>
+          <li class="flex">
+            <a class="p-small text-morado-extra-light py-1" href="/">HOME</a>
+          </li>
+          <li class="flex">
+            <a class="p-small text-morado-extra-light py-1" href="/terminos">TÉRMINOS Y CONDICIONES</a>
+          </li>
+          <li class="flex">
+            <a class="p-small text-morado-extra-light py-1" href="/privacidad">AVISO DE PRIVACIDAD</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
