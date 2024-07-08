@@ -119,7 +119,7 @@ export const mainEvents: Event[] = [
         links: []
       },
       {
-        ciudad: "Guadalupe",
+        ciudad: "Valle de Guadalupe",
         fecha: "07 sept 2024",
         lugar: "ARENA VALLE DE GUADALUPE",
         urlboton: "https://boletos.funticket.mx/boletos26/public/janto/main.php?Nivel=Evento&idEvento=LMENSE",
