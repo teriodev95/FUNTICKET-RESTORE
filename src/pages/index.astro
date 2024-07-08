@@ -43,9 +43,9 @@ import Footer from '../components/Footer.astro';
                           </a>
                         </div>
                       )}
-                      {event.links && event.links.map((link) => (
+                      {event.links.length > 0 && event.links.map((link) => (
                         <div>
-                          <a href={link.link} class='p-small px-2 py-1 rounded-lg inline-block border border-pink-800 text-white flex justify-between items-center w-full' target="_blank">
+                          <a href={link.url} class='p-small px-2 py-1 rounded-lg inline-block border border-pink-800 text-white flex justify-between items-center w-full' target="_blank">
                             <span>{link.label}</span>
                             <img src="/icon-ticket.svg" alt="icon tickect funticket" width="48" height="48" class="flex w-4 h-4 mr-2" />
                           </a>
