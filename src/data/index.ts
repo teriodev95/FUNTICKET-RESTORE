@@ -23,6 +23,8 @@ export const footer = {
   urlFacebook: "https://www.facebook.com/FunTicketMx"
 }
 
+
+
 export const mainEvents: Event[] = [
   {
     title: "Zucchero - Tour 2024",
