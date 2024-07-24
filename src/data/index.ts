@@ -27,6 +27,19 @@ export const footer = {
 
 export const mainEvents: Event[] = [
   {
+    title: "Travis Scott - Circus Maximus Tour 2024",
+    events: [
+      {
+        ciudad: "CDMX",
+        fecha: "21 sep 2024",
+        lugar: "EXPLANADA DEL ESTADIO AZTECA",
+        urlboton: "",
+        urlfoto: "https://imgcdn.terio.xyz/images/2024/07/24/FunTicket-TravisScott_Proximos.jpeg",
+        links: []
+      }
+    ]
+  },
+  {
     title: "Zucchero - Tour 2024",
     events: [
       {
