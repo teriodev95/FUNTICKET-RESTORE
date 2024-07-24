@@ -3,14 +3,16 @@
 import { mainEvents, footer } from '../data/index';
 import Layout from '../layouts/Layout.astro';
 import Footer from '../components/Footer.astro';
+import PopUp from '../components/PopUp.astro';
 ---
 
 
 <!-- EVENTS -->
 <Layout title='Home'>
+  <PopUp />
   <section class="w-full pb-[10vh]">
-    <div class="contenedor">
-      <div class="w-full flex justify-center my-8">
+    <div class="contenedor pt-8">
+      <div class="w-full flex justify-center mb-8">
         <img class="lg:w-[30%] md:w-[40%] w-[70%]" src="/logo.png" alt="logo funticket">
       </div>
       <div>
