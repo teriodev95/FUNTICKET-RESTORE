@@ -41,6 +41,15 @@ export const mainEvents: Event[] = [
             url: "https://boletos.funticket.mx/boletos48/public/janto/main.php?Nivel=Evento&idEvento=CRIDETRAVIS21"
           }
         ]
+      },
+      {
+        ciudad: "CDMX",
+        fecha: "22 sept 2024",
+        lugar: "EXPLANADA DEL ESTADIO AZTECA",
+        urlboton: "https://eventos.funticket.mx/boletos/comprarEvento?idEvento=2",
+        urlfoto: "https://imgcdn.terio.xyz/images/2024/08/01/FunTicket-TravisScott_Proximos.md.jpeg",
+        links: [
+        ]
       }
     ]
   },
