@@ -33,61 +33,14 @@ export const mainEvents: Event[] = [
         ciudad: "CDMX",
         fecha: "21 sep 2024",
         lugar: "EXPLANADA DEL ESTADIO AZTECA",
-        urlboton: "",
-        urlfoto: "https://imgcdn.terio.xyz/images/2024/07/24/FunTicket-TravisScott_Proximos.jpeg",
-        links: []
-      }
-    ]
-  },
-  {
-    title: "Zucchero - Tour 2024",
-    events: [
-      {
-        ciudad: "Guadalajara",
-        fecha: "20 sep 2024",
-        lugar: "PALCCO (Palacio De La Cultura Y Los Congresos)",
-        urlboton: "https://boletos.funticket.mx/boletos11/public/janto/main.php?Nivel=Evento&idEvento=ZUCGDL",
-        urlfoto: "https://imgcdn.terio.xyz/images/2024/05/04/zucchero-prox.md.jpeg",
-        links: []
-      }
-    ]
-  },
-  {
-    title: "Slipknot - MÉXICO 2024",
-    events: [
-      {
-        ciudad: "Guadalajara",
-        fecha: "8 nov 2024",
-        lugar: "Calle 2 - Guadalajara",
-        urlboton: "https://boletos.funticket.mx/boletos14/public/janto/main.php?Nivel=Evento&idEvento=SLIPKGDL",
-        urlfoto: "https://imgcdn.terio.xyz/images/2024/04/30/slipknot-prox.jpeg",
-        links: []
-      }
-    ]
-  },
-  {
-    title: "México Metal Fest - 2024",
-    events: [
-      {
-        ciudad: "Monterrey",
-        fecha: "12 oct 2024",
-        lugar: "Expo Guadalupe - Monterrey",
-        urlboton: "",
-        urlfoto: "https://imgcdn.terio.xyz/images/2024/05/26/photo_2_2024-05-26_21-32-32.md.jpeg",
-        links: []
-      }
-    ]
-  },
-  {
-    title: "Bring Me The Horizon - Diciembre 2024",
-    events: [
-      {
-        ciudad: "CDMX",
-        fecha: "14 dic 2024",
-        lugar: "EXPLANADA DEL ESTADIO AZTECA",
-        urlboton: "https://boletos.funticket.mx/boletos5/public/janto/main.php?Nivel=Evento&idEvento=BMTH24",
-        urlfoto: "https://imgcdn.terio.xyz/images/2024/06/17/FunTicket-BMTH_Proximos.jpeg",
-        links: []
+        urlboton: "https://boletos.funticket.mx/boletos48/public/janto/main.php?Nivel=Evento&idEvento=TRAVISCOTT",
+        urlfoto: "https://imgcdn.terio.xyz/images/2024/07/29/FunTicket-TravisScott_Proximos_SoldOut.md.jpeg",
+        links: [
+          {
+            label: "Conecta ride",
+            url: "https://boletos.funticket.mx/boletos48/public/janto/main.php?Nivel=Evento&idEvento=CRIDETRAVIS21"
+          }
+        ]
       }
     ]
   },
@@ -229,6 +182,73 @@ export const mainEvents: Event[] = [
         urlboton: "https://boletos.funticket.mx/boletos4/public/janto/main.php?Nivel=Evento&idEvento=LMTOLU24",
         urlfoto: "https://imgcdn.terio.xyz/images/2024/05/05/FunTicket-LMTOUR2024_VG_Prox_Toluca.jpeg",
         links: []
+      }
+    ]
+  },
+  {
+    title: "Zucchero - Tour 2024",
+    events: [
+      {
+        ciudad: "Guadalajara",
+        fecha: "20 sep 2024",
+        lugar: "PALCCO (Palacio De La Cultura Y Los Congresos)",
+        urlboton: "https://boletos.funticket.mx/boletos11/public/janto/main.php?Nivel=Evento&idEvento=ZUCGDL",
+        urlfoto: "https://imgcdn.terio.xyz/images/2024/05/04/zucchero-prox.md.jpeg",
+        links: []
+      }
+    ]
+  },
+  {
+    title: "Slipknot - MÉXICO 2024",
+    events: [
+      {
+        ciudad: "Guadalajara",
+        fecha: "8 nov 2024",
+        lugar: "Calle 2 - Guadalajara",
+        urlboton: "https://boletos.funticket.mx/boletos14/public/janto/main.php?Nivel=Evento&idEvento=SLIPKGDL",
+        urlfoto: "https://imgcdn.terio.xyz/images/2024/04/30/slipknot-prox.jpeg",
+        links: [
+          {
+            label: "Conecta ride",
+            url: "https://boletos.funticket.mx/boletos7/public/janto/main.php?Nivel=Evento&idEvento=CRIDESLIPK"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    title: "México Metal Fest - 2024",
+    events: [
+      {
+        ciudad: "Monterrey",
+        fecha: "12 oct 2024",
+        lugar: "Expo Guadalupe - Monterrey",
+        urlboton: "https://boletos.funticket.mx/boletos2/public/janto/main.php?Nivel=Evento&idEvento=MEXMETALFEST24",
+        urlfoto: "https://imgcdn.terio.xyz/images/2024/05/26/photo_2_2024-05-26_21-32-32.md.jpeg",
+        links: [
+          {
+            label: "Solo valhalla",
+            url: "https://boletos.funticket.mx/boletos2/public/janto/main.php?Nivel=Evento&idEvento=MEXMETALFESTVA24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    title: "Bring Me The Horizon - Diciembre 2024",
+    events: [
+      {
+        ciudad: "CDMX",
+        fecha: "14 dic 2024",
+        lugar: "EXPLANADA DEL ESTADIO AZTECA",
+        urlboton: "https://boletos.funticket.mx/boletos5/public/janto/main.php?Nivel=Evento&idEvento=BMTH24",
+        urlfoto: "https://imgcdn.terio.xyz/images/2024/06/17/FunTicket-BMTH_Proximos.jpeg",
+        links: [
+          {
+            label: "Conecta rida",
+            url: "https://boletos.funticket.mx/boletos7/public/janto/main.php?Nivel=Evento&idEvento=CRIDEBMTH"
+          }
+        ]
       }
     ]
   }
