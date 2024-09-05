@@ -40,7 +40,7 @@ export const mainEvents: Event[] = [
       {
         ciudad: "Saltillo",
         fecha: "19 sep 2024",
-        lugar: "Estadio Saraperos",
+        lugar: "Estadio Francisco I. Madero",
         urlboton:
           "",
         urlfoto:
