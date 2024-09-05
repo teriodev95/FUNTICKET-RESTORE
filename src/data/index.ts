@@ -32,7 +32,7 @@ export const mainEvents: Event[] = [
         fecha: "07 sept 2024",
         lugar: "ARENA VALLE DE GUADALUPE",
         urlboton:
-          "",
+          "https://boletos.funticket.mx/boletos9/public/janto/main.php?Nivel=Evento&idEvento=LMENSE",
         urlfoto:
           "https://imgcdn.terio.xyz/images/2024/06/30/FunTicket-LMTOUR2024_VG_Prox_VGDLP.jpeg",
         links: [],
@@ -42,7 +42,7 @@ export const mainEvents: Event[] = [
         fecha: "19 sep 2024",
         lugar: "Estadio Francisco I. Madero",
         urlboton:
-          "",
+          "https://boletos.funticket.mx/boletos9/public/janto/main.php?Nivel=Evento&idEvento=LM24SAL",
         urlfoto:
           "https://imgcdn.terio.xyz/images/2024/05/05/FunTicket-LMTOUR2024_VG_Prox_Saltillo.md.jpeg",
         links: [],
@@ -52,7 +52,7 @@ export const mainEvents: Event[] = [
         fecha: "21 sep 2024",
         lugar: "Estadio Revolución",
         urlboton:
-          "",
+          "https://boletos.funticket.mx/boletos9/public/janto/main.php?Nivel=Evento&idEvento=LM24TOR",
         urlfoto:
           "https://imgcdn.terio.xyz/images/2024/05/05/FunTicket-LMTOUR2024_VG_Prox_Torreon.md.jpeg",
         links: [],
@@ -62,7 +62,7 @@ export const mainEvents: Event[] = [
         fecha: "24 sep 2024",
         lugar: "Estadio Heroe de Nacozari",
         urlboton:
-          "",
+          "https://boletos.funticket.mx/boletos9/public/janto/main.php?Nivel=Evento&idEvento=LMHERMOSILLO",
         urlfoto:
           "https://imgcdn.terio.xyz/images/2024/05/05/FunTicket-LMTOUR2024_VG_Prox_Hermosillo.md.jpeg",
         links: [],
