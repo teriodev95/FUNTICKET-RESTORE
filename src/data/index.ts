@@ -25,48 +25,48 @@ export const footer = {
 
 export const mainEvents: Event[] = [
   {
-    title: "Aventura - Cerrando Ciclos",
+    title: "Luis Miguel - Tour 2024",
     events: [
       {
-        ciudad: "Guadalajara",
-        fecha: "14 ago 2024",
-        lugar: "Estadio Akron",
-        urlboton: "https://boletos.funticket.mx/boletos28/public/janto/main.php?Nivel=Evento&idEvento=AVENTGDL",
-        urlfoto: "https://imgcdn.terio.xyz/images/2024/07/08/FunTicket-Aventura_GDL_Proximos.md.jpeg",
-        links: []
+        ciudad: "Valle de Guadalupe",
+        fecha: "07 sept 2024",
+        lugar: "ARENA VALLE DE GUADALUPE",
+        urlboton:
+          "",
+        urlfoto:
+          "https://imgcdn.terio.xyz/images/2024/06/30/FunTicket-LMTOUR2024_VG_Prox_VGDLP.jpeg",
+        links: [],
       },
       {
-        ciudad: "Mérida",
-        fecha: "25 ago 2024",
-        lugar: "ESTADIO CARLOS ITURRALDE",
-        urlboton: "https://boletos.funticket.mx/boletos33/public/janto/main.php?Nivel=Evento&idEvento=AVENTURAMER",
-        urlfoto: "https://imgcdn.terio.xyz/images/2024/07/08/FunTicket-Aventura_MER_Proximos.md.jpeg",
-        links: []
+        ciudad: "Saltillo",
+        fecha: "19 sep 2024",
+        lugar: "Estadio Saraperos",
+        urlboton:
+          "",
+        urlfoto:
+          "https://imgcdn.terio.xyz/images/2024/05/05/FunTicket-LMTOUR2024_VG_Prox_Saltillo.md.jpeg",
+        links: [],
       },
       {
-        ciudad: "Monterrey",
-        fecha: "20 ago 2024",
-        lugar: "Estadio Banorte",
-        urlboton: "https://boletos.funticket.mx/boletos31/public/janto/main.php?Nivel=Evento&idEvento=AVMTY",
-        urlfoto: "https://imgcdn.terio.xyz/images/2024/07/08/FunTicket-Aventura_MTY_Proximos.md.jpeg",
-        links: []
+        ciudad: "Torreón",
+        fecha: "21 sep 2024",
+        lugar: "Estadio Revolución",
+        urlboton:
+          "",
+        urlfoto:
+          "https://imgcdn.terio.xyz/images/2024/05/05/FunTicket-LMTOUR2024_VG_Prox_Torreon.md.jpeg",
+        links: [],
       },
       {
-        ciudad: "Puebla",
-        fecha: "23 ago 2024",
-        lugar: "CENTRO EXPOSITOR LOS FUERTES",
-        urlboton: "https://boletos.funticket.mx/boletos32/public/janto/main.php?Nivel=Evento&idEvento=AVPUEBLA",
-        urlfoto: "https://imgcdn.terio.xyz/images/2024/07/08/FunTicket-Aventura_PUE_Proximos.md.jpeg",
-        links: []
-      },
-      {
-        ciudad: "Querétaro",
-        fecha: "16 ago 2024",
-        lugar: "ESTADIO CORREGIDORA",
-        urlboton: "https://boletos.funticket.mx/boletos29/public/janto/main.php?Nivel=Evento&idEvento=AVEQRO",
-        urlfoto: "https://imgcdn.terio.xyz/images/2024/07/08/FunTicket-Aventura_QRO_Proximos.md.jpeg",
-        links: []
+        ciudad: "Hermosillo",
+        fecha: "24 sep 2024",
+        lugar: "Estadio Heroe de Nacozari",
+        urlboton:
+          "",
+        urlfoto:
+          "https://imgcdn.terio.xyz/images/2024/05/05/FunTicket-LMTOUR2024_VG_Prox_Hermosillo.md.jpeg",
+        links: [],
       }
-    ]
+    ],
   },
 ];
